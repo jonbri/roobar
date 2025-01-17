@@ -1,6 +1,10 @@
 {
   "name": "roobar",
   "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jonbri/roobar.git"
+  },
   "type": "module",
   "module": "./esm/index.js",
   "types": "./index.d.ts",

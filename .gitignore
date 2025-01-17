@@ -1,0 +1,13 @@
+build/*
+!build/package.json
+.rollup.cache/
+node_modules/
+package-lock.json
+yarn-error.log
+*.tsbuildinfo
+.env
+.DS_Store/
+.DS_Store
+.idea/
+.yarnclean
+.devproxy

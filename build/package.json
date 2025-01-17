@@ -1,0 +1,19 @@
+{
+  "name": "roobar",
+  "version": "1.0.0",
+  "type": "module",
+  "module": "./esm/index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "./package.json": "./package.json",
+    ".": {
+      "import": {
+        "types": "./index.d.ts",
+        "default": "./esm/index.js"
+      }
+    }
+  },
+  "dependencies": {
+    "roobar-style": "^1.0.0"
+  }
+}
